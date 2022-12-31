@@ -26,6 +26,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { LandingComponent } from './pages/landing/landing.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
