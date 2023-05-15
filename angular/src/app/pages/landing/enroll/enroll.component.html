@@ -1,0 +1,42 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Enroll Today</h5>
+  <button
+    type="button"
+    class="btn-close"
+    aria-label="Close"
+    (click)="modalRef.close()"
+  ></button>
+</div>
+<form
+  action="https://formkeep.com/f/27a37dfc6d7b"
+  accept-charset="UTF-8"
+  enctype="multipart/form-data"
+  method="POST"
+>
+  <div class="modal-body">
+    <mdb-form-control>
+      <input mdbInput type="text" id="parentsName" class="form-control" />
+      <label mdbLabel class="form-label" for="parentsName">Parent's Name</label>
+    </mdb-form-control>
+    <mdb-form-control>
+      <input mdbInput type="email" id="email" class="form-control" />
+      <label mdbLabel class="form-label" for="email">Email</label>
+    </mdb-form-control>
+    <mdb-form-control>
+      <textarea mdbInput class="form-control" id="textArea" rows="4"></textarea>
+      <label
+        mdbLabel
+        class="form-label"
+        for="textArea"
+        aria-placeholder="anything"
+        >Additional details</label
+      >
+    </mdb-form-control>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn" (click)="modalRef.close()">
+      Close
+    </button>
+    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+  </div>
+</form>

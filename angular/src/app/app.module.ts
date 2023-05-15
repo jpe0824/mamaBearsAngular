@@ -27,6 +27,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { AppRoutingModule } from './app-routing.module';
+import { EnrollComponent } from './pages/landing/enroll/enroll.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { AppRoutingModule } from './app-routing.module';
     AboutComponent,
     GalleryComponent,
     ContactComponent,
-    LandingComponent
+    LandingComponent,
+    EnrollComponent
   ],
   imports: [
     BrowserModule,
