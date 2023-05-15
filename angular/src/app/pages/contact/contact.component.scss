@@ -1,0 +1,37 @@
+/* contact page styling */
+#contact {
+  min-height: 80vh;
+}
+
+#contactTitle {
+  background-image: url("../../../assets/tree.jpeg");
+  min-height: 40vh;
+}
+#contactBody {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+  justify-content: space-around;
+  align-items: center;
+}
+#contactBody a,.footer a{
+  text-decoration: none;
+  color:inherit;
+}
+#contactBody a:hover, .footer a:hover{
+  color:cadetblue;
+  cursor: pointer;
+}
+.mapouter{
+  position:relative;
+  text-align:center;
+  height:300px;
+  width:300px;
+}
+.gmap_canvas {
+  position: absolute;
+  overflow:hidden;
+  background:none!important;
+  height:300px;
+  width:300px;
+}
